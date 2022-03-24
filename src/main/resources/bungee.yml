@@ -1,0 +1,5 @@
+main: com.github.messycraft.namekicker.bungee.Main
+name: Namekicker
+author: ImCur_
+description: A plugin that automatically kicks out players with illegal IDs.
+version: 1.0.2

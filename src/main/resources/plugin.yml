@@ -1,0 +1,17 @@
+name: Namekicker
+version: 1.1
+main: com.github.messycraft.namekicker.bukkit.Namekicker
+author: ImCur_
+description: A plugin that automatically kicks out players with illegal IDs.
+website: https://github.com/MessyCraft/Namekicker
+
+commands:
+  namekickerreload:
+    aliases: nkreload
+    permission: namekicker.admin
+    description: Plugin reload command.
+
+permissions:
+  namekicker.admin:
+    description: Plugin admin permission.
+    default: op

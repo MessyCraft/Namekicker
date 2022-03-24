@@ -1,0 +1,67 @@
+# Plugin info
+  # This plugin can be used for Bukkit-server or BungeeCord-server.
+
+  # Bukkit
+  #   The plugin command in Bukkit is "/nkreload", it can reload plugin config in Bukkit.
+  #   Use commands needs permission "namekicker.admin".
+
+  # BungeeCord
+  #   The command in BungeeCord is "/nkreloadbc", it can reload plugin config in BungeeCord.
+  #   Use commands needs permission "namekickerbungee.admin".
+
+
+# 插件信息
+  # 这个插件可以用于 Bukkit 服务器和 BungeeCord 服务器。
+
+  # Bukkit
+  #   在 Bukkit 中的插件命令为 "/nkreload"，它可以重载 Bukkit 中的插件配置。
+  #   使用命令需要权限 "namekicker.admin"。
+
+  # BungeeCord
+  #   在 BungeeCord 中的插件命令为 "/nkreloadbc"，它可以重载 BungeeCord 中的插件配置。
+  #   使用命令需要权限 "namekickerbungee.admin"。
+
+# --------------------------------------------------------------------------------
+
+###############################################################
+## All settings are case-insensitive / 所有设置都不区分字母大小写 ##
+## <R> Represents an illegal keyword / 以下 <R> 代表违规的关键字 ##
+###############################################################
+
+# Kick out the player when the player ID is one of these keywords:
+# 当玩家ID为这些关键字之一时踢出该玩家:
+illegal-list:
+  - ""
+  - ""
+illegal-kickresult: "&e[Namekicker] &cKicked out because of violation ID &6<R> &c!"
+
+# Kick out the player when the player ID contains these keywords:
+# 当玩家ID包含这些关键字时踢出该玩家:
+illegal-contains-list:
+  - ""
+  - ""
+illegal-contains-kickresult: "&e[Namekicker] &cKicked out because your ID contains &6<R> &c!"
+
+# Kick out the player when the player ID starts with these keywords:
+# 当玩家ID已这些关键字开头时踢出该玩家：
+illegal-beginning-list:
+  - ""
+  - ""
+illegal-beginning-kickresult: "&e[Namekicker] &cKicked out because your ID start with &6<R> &c!"
+
+# Kick out the player when the player ID has ended these keywords:
+# 当玩家ID已这些关键字结尾时踢出该玩家：
+illegal-end-list:
+  - ""
+  - ""
+illegal-end-kickresult: "&e[Namekicker] &cKicked out because your ID has ended &6<R> &c!"
+
+# Minimum length of player ID:
+# 玩家ID最小长度:
+ID-minimum-length: 2
+ID-minimum-length-kickresult: "&e[Namekicker] &cKicked out because of your ID is too short!"
+
+# Maximum length of player ID
+# 玩家ID最大长度:
+ID-maximum-length: 12
+ID-maximum-length-kickresult: "&e[Namekicker] &cKicked out because of your ID is too long!"
